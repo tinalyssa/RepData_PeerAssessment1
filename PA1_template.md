@@ -1,18 +1,17 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
 output: 
   html_document:
     keep_md: true
 ---
-
+# Reproducible Research: Peer Assessment 1
 _________
 
 
-##Introduction
+## Introduction
 
 This document explores data obtained from a personal activity monitoring device. The device collects data at 5 minute intervals through out the day. The dataset would consist of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.
 
-####This document contains the following:
+#### This document contains the following:
 
 - Code for reading in the dataset and/or processing the data
 - Histogram of the total number of steps taken each day
@@ -24,7 +23,7 @@ This document explores data obtained from a personal activity monitoring device.
 - Panel plot comparing the average number of steps taken per 5-minute interval across weekdays and weekends
 - All of the R code needed to reproduce the results (numbers, plots, etc.) in the report
 
-##Modifying global settings
+## Modifying global settings
 
 Before starting with the code, global settings is modified to turn off warnings and set echo = TRUE.
 
